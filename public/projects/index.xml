@@ -1,30 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coffie Portfolio</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Coffie Portfolio</description>
+    <title>Projects on Coffie Portfolio</title>
+    <link>http://example.org/projects/</link>
+    <description>Recent content in Projects on Coffie Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Resume</title>
-      <link>http://example.org/resume/</link>
-      <pubDate>Sat, 19 Nov 2022 11:33:30 +0000</pubDate>
-      
-      <guid>http://example.org/resume/</guid>
-      <description>Coffie&amp;rsquo;s Resume
-This is my resume page where i display my works</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://example.org/about/</link>
-      <pubDate>Sat, 19 Nov 2022 09:59:28 +0000</pubDate>
-      
-      <guid>http://example.org/about/</guid>
-      <description>This is the about page</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awesomeco</title>
       <link>http://example.org/projects/awesomeco/</link>
