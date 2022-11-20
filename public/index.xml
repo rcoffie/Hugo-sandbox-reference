@@ -6,5 +6,24 @@
     <description>Recent content on Coffie Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>http://example.org/resume/</link>
+      <pubDate>Sat, 19 Nov 2022 11:33:30 +0000</pubDate>
+      
+      <guid>http://example.org/resume/</guid>
+      <description>Coffie&amp;rsquo;s Resume
+This is my resume page where i display my works</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Sat, 19 Nov 2022 09:59:28 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>This is the about page</description>
+    </item>
+    
   </channel>
 </rss>
