@@ -2,3 +2,8 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Coffie Portfolio'
 theme = "basic"
+
+[params]
+  author = "Brain Hogan"
+  description = "My portfolio site"
+  

@@ -1,10 +1,17 @@
 ---
 title: "Awesomeco"
 draft: false
----
-![alt](//via.placeholder.com/640x150)
 
-Description...
+image: //via.placeholder.com/640x150
+alt_text: "Awesomeco screenshot"
+summary: "Summary of the AwesomeCo project"
+tech_used:
+- JavaScript
+- CSS
+- HTML
+---
+
+Description of the Awesomeco project...
 
 
 ### Tech Used 
