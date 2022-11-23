@@ -8,6 +8,8 @@
            {{ .Title }} - {{ .Site.Title }}
          {{- end -}}
     </title>
+    <link rel="alternate" type="application/rss+xml"
+    href="http://example.com/feed" >
     <meta name="author" content="{{ .Site.Params.author }}">
     <meta name="description" content="
     {{- with .Page.Description -}}
@@ -16,4 +18,12 @@
     {{ .Site.Params.description }}
     {{- end -}}">
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  {{ range .AlternativeOutputFormats -}}
+  {{- $link := `<link rel="%s" type="%s" href="%s" title="%s">` -}}
+  {{- $title := printf "%s - %s" $.Page.Title $.Site.Title -}}
+  {{- if $.Page.IsHome -}}
+  {{ $title = $.Site.Title }}
+  {{- end -}}
+  {{ printf $link .Rel .MediaType.Type .Permalink $title | safeHTML }}
+  {{- end }}
     </head>
