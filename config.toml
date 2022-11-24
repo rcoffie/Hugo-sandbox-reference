@@ -10,4 +10,6 @@ theme = "basic"
 
 gh_url = "https://api.github.com/users"
 gh_user = "rcoffie"
+
+pygmentsUseClasses = true
   
