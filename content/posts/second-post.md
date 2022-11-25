@@ -1,9 +1,9 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Second Post"
+date: 2022-11-25T00:36:39Z
 draft: false
-year: "{{ dateFormat "2006" .Date }}"
-month: "{{ dateFormat "2006/01" .Date }}"
+year: "2022"
+month: "2022/11"
 
 categories:
 - Personal 

@@ -7,6 +7,14 @@
     </p>
     <p>
     Posted {{ .Date.Format "January 2, 2006" }}
+
+    <span>
+        in 
+        {{ range .Params.tags }}
+         
+        <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+    </span>
     </p>
     <p>
         

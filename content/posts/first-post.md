@@ -2,13 +2,16 @@
 title: "First Post"
 date: 2022-11-24T09:33:24Z
 draft: false
-
+author: Brain Hogan
+year: "200"
+month: "2020/01"
 categories:
 - Personal
 - Thoughts
 tags:
 - software
 - html
+
 
 ---
 author: Brian Hogan
